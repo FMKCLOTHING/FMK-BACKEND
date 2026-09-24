@@ -1,5 +1,5 @@
 /* =========================================================
-   AZMA MARKETPLACE
+   FMK CLOTHING
    REFUND + ADMIN CHAT MIGRATION
 ========================================================= */
 
@@ -15,11 +15,11 @@ USE railway;
    TEMPORARY PROCEDURE FOR MYSQL-COMPATIBLE COLUMN MIGRATION
 ========================================================= */
 
-DROP PROCEDURE IF EXISTS azma_refund_order_columns;
+DROP PROCEDURE IF EXISTS fmk_refund_order_columns;
 
 DELIMITER $$
 
-CREATE PROCEDURE azma_refund_order_columns()
+CREATE PROCEDURE fmk_refund_order_columns()
 BEGIN
 
     DECLARE v_exists INT DEFAULT 0;
@@ -400,9 +400,9 @@ END$$
 
 DELIMITER ;
 
-CALL azma_refund_order_columns();
+CALL fmk_refund_order_columns();
 
-DROP PROCEDURE IF EXISTS azma_refund_order_columns;
+DROP PROCEDURE IF EXISTS fmk_refund_order_columns;
 
 
 /* =========================================================
@@ -858,7 +858,7 @@ SELECT
 
 
 /* =========================================================
-   AZMA MARKETPLACE
+   FMK CLOTHING
    REFUND + SUPPORT CHAT UPDATE 002
 ========================================================= */
 
@@ -869,11 +869,11 @@ USE railway;
    UPDATE 002 INDEXES
 ========================================================= */
 
-DROP PROCEDURE IF EXISTS azma_refund_chat_update_002;
+DROP PROCEDURE IF EXISTS fmk_refund_chat_update_002;
 
 DELIMITER $$
 
-CREATE PROCEDURE azma_refund_chat_update_002()
+CREATE PROCEDURE fmk_refund_chat_update_002()
 BEGIN
 
     DECLARE v_exists INT DEFAULT 0;
@@ -948,9 +948,9 @@ END$$
 
 DELIMITER ;
 
-CALL azma_refund_chat_update_002();
+CALL fmk_refund_chat_update_002();
 
-DROP PROCEDURE IF EXISTS azma_refund_chat_update_002;
+DROP PROCEDURE IF EXISTS fmk_refund_chat_update_002;
 
 
 /* =========================================================
