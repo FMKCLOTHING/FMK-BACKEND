@@ -80,7 +80,7 @@ function requireA2UAdmin(
 ========================================================= */
 
 const A2U_LOCK_NAME =
-  "azma_marketplace_a2u_payout";
+  "fmk_clothes_market_a2u_payout";
 
 
 /* ========================================================
@@ -745,7 +745,7 @@ router.post(
             amount,
 
             memo:
-              `Azma Marketplace vendor payout #${earning.id}`,
+              `Fmk Clothes market vendor payout #${earning.id}`,
 
             metadata: {
 
@@ -2103,7 +2103,7 @@ async function processPlatformWithdrawal(
             amount,
 
             memo:
-              `Azma Marketplace admin earnings withdrawal #${withdrawalId}`,
+              `Fmk Clothing admin earnings withdrawal #${withdrawalId}`,
 
             metadata: {
 

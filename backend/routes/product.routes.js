@@ -49,7 +49,7 @@ function publicImage(pathValue) {
 
   const backendUrl =
     process.env.BACKEND_URL ||
-    "https://azma-backend-production.up.railway.app";
+    "https://fmk-backend-production.up.railway.app";
 
   const cleanPath = pathValue.startsWith("/")
     ? pathValue
