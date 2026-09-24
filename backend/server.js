@@ -20,7 +20,7 @@ app.set("trust proxy", 1);
    APPLICATION INFORMATION
 ========================================================= */
 
-const APP_NAME = "Azma Marketplace API";
+const APP_NAME = "Fmk Clothes Market API";
 
 const configuredOrigins = (process.env.FRONTEND_ORIGINS || "")
   .split(",")
@@ -913,7 +913,7 @@ app.listen(
     startupLine();
 
     console.log(
-      "🚀 AZMA MARKETPLACE API"
+      "🚀 FMK CLOTHES MARKET API"
     );
 
     startupLine();

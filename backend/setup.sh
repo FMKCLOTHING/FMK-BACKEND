@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "=========================================="
-echo "🚀 AZMA MARKETPLACE SETUP"
+echo "🚀 FMK CLOTHES MARKET SETUP"
 echo "=========================================="
 
 set -e
@@ -14,7 +14,7 @@ echo "🔍 Checking project..."
 
 if [ ! -f "package.json" ]; then
     echo "❌ package.json not found."
-    echo "Please run this script from the Azma-Marketplace folder."
+    echo "Please run this script from the Fmk_Clothing folder."
     exit 1
 fi
 
@@ -133,7 +133,7 @@ echo "🎉 SETUP COMPLETE"
 echo "=========================================="
 
 echo ""
-echo "🚀 Starting Azma Marketplace..."
+echo "🚀 Starting Fmk Clothes Market..."
 echo ""
 
 node server.js
